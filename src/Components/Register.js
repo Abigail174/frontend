@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Axios from 'axios';
-import Navbar from './Components/Navbar';
+import Navbar from './Navbar';
 
 const Register = () => {
   const [studentId, setStudentId] = useState('');
